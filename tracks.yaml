@@ -18,7 +18,7 @@ tracks:
     release_inc: -1
     release_repo_url: git@github.com:nuclearsandwich/ament_lint-release
     release_tag: master
-    ros_distro: indigo
+    ros_distro: r2b2
     vcs_type: git
     vcs_uri: https://github.com/ament/ament_lint.git
     version: 0.0.0
