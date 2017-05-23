@@ -1,0 +1,12 @@
+Source: ros-r2b2-ament-cmake-lint-cmake
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-r2b2-ament-cmake-core, ros-r2b2-ament-cmake-test, ros-r2b2-ament-lint-cmake
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-ament-cmake-lint-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-r2b2-ament-cmake-test, ros-r2b2-ament-lint-cmake
+Description: The CMake API for ament_lint_cmake to lint CMake code using cmakelint.
