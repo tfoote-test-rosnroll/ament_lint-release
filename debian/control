@@ -1,0 +1,12 @@
+Source: ros-r2b2-ament-cmake-clang-format
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-r2b2-ament-cmake-copyright, ros-r2b2-ament-cmake-core, ros-r2b2-ament-cmake-lint-cmake, ros-r2b2-ament-cmake-test
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-ament-cmake-clang-format
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-r2b2-ament-clang-format, ros-r2b2-ament-cmake-test
+Description: The CMake API for ament_clang_format to lint C / C++ code using clang format.
