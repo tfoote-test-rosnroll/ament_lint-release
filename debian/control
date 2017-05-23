@@ -1,0 +1,12 @@
+Source: ros-r2b2-ament-lint-cmake
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-r2b2-ament-copyright, ros-r2b2-ament-flake8, ros-r2b2-ament-pep257
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-ament-lint-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The ability to lint CMake code using cmakelint and generate xUnit test result files.
