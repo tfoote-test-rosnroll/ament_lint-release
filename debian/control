@@ -1,0 +1,12 @@
+Source: ros-r2b2-ament-clang-format
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-dev, python3-setuptools, ros-r2b2-ament-copyright, ros-r2b2-ament-pep257, ros-r2b2-ament-pep8, ros-r2b2-ament-pyflakes, ros-r2b2-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-ament-clang-format
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, clang-format, python3-dev, ros-r2b2-ros-workspace
+Description: The ability to check code against style conventions using clang-format and generate xUnit test result files.
