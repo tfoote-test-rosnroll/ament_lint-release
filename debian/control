@@ -1,0 +1,12 @@
+Source: ros-r2b2-ament-pyflakes
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), dh-python, python3-all (>= 3.5), ros-r2b2-ament-pep8, python3-setuptools, ros-r2b2-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-r2b2-ament-pyflakes
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, pyflakes3, ros-r2b2-ros-workspace
+Description: The ability to check code using pyflakes and generate xUnit test result files.
