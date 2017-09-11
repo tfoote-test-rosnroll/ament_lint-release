@@ -24,7 +24,7 @@ from ament_copyright import SOURCE_FILETYPE
 from ament_copyright import UNKNOWN_IDENTIFIER
 
 
-class CopyrightDescriptor(object):
+class CopyrightDescriptor:
 
     def __init__(self, name, year_range):
         self.name = name
@@ -37,7 +37,7 @@ class CopyrightDescriptor(object):
         return s
 
 
-class FileDescriptor(object):
+class FileDescriptor:
 
     def __init__(self, filetype, path):
         self.filetype = filetype
@@ -208,7 +208,7 @@ def get_index_of_next_line(content, index):
     index_n = content.find('\n', index)
     index_r = content.find('\r', index)
     index_rn = content.find('\r\n', index)
-    indices = set([])
+    indices = set()
     if index_n != -1:
         indices.add(index_n)
     if index_r != -1:
