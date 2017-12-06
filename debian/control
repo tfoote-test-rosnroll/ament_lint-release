@@ -1,0 +1,12 @@
+Source: ros-ardent-ament-cmake-cppcheck
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-ament-cmake-copyright, ros-ardent-ament-cmake-core, ros-ardent-ament-cmake-lint-cmake, ros-ardent-ament-cmake-test, ros-ardent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-ardent-ament-cmake-cppcheck
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-ardent-ament-cmake-test, ros-ardent-ament-cppcheck, ros-ardent-ros-workspace
+Description: The CMake API for ament_cppcheck to perform static code analysis on C/C++ code using Cppcheck.
