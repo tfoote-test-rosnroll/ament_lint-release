@@ -53,14 +53,14 @@ class FileDescriptor:
             self.content = h.read()
 
     def parse(self):
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def identify_license(self, content, license_part):
         if content is None:
             return
 
-        for name, license in get_licenses().items():
-            template = getattr(license, license_part).replace('\n', ' ').strip()
+        for name, license_ in get_licenses().items():
+            template = getattr(license_, license_part).replace('\n', ' ').strip()
             last_index = -1
             for license_section in template.split('{company}'):
                 # OK, now look for each section of the license in the incoming
