@@ -1,0 +1,12 @@
+Source: ros-bouncy-ament-cmake-lint-cmake
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake-core, ros-bouncy-ament-cmake-test, ros-bouncy-ament-lint-cmake, ros-bouncy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-ament-cmake-lint-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-ament-cmake-test, ros-bouncy-ament-lint-cmake, ros-bouncy-ros-workspace
+Description: The CMake API for ament_lint_cmake to lint CMake code using cmakelint.
