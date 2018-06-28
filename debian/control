@@ -1,0 +1,12 @@
+Source: ros-bouncy-ament-cmake-pclint
+Section: misc
+Priority: extra
+Maintainer: Juan Pablo Samper <jp.samper@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake-copyright, ros-bouncy-ament-cmake-core, ros-bouncy-ament-cmake-lint-cmake, ros-bouncy-ament-cmake-test, ros-bouncy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-ament-cmake-pclint
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-ament-cmake-test, ros-bouncy-ament-pclint, ros-bouncy-ros-workspace
+Description: The CMake API for ament_pclint to perform static code analysis on C/C++ code using PCLint.
