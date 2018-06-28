@@ -1,0 +1,12 @@
+Source: ros-bouncy-ament-cmake-flake8
+Section: misc
+Priority: extra
+Maintainer: D. Hood <dhood@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake-copyright, ros-bouncy-ament-cmake-core, ros-bouncy-ament-cmake-lint-cmake, ros-bouncy-ament-cmake-test, ros-bouncy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-ament-cmake-flake8
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-ament-cmake-test, ros-bouncy-ament-flake8, ros-bouncy-ros-workspace
+Description: The CMake API for ament_flake8 to check code syntax and style conventions with flake8.
