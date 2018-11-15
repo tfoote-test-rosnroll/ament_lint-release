@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ament_pclint',
-    version='0.5.2',
+    version='0.6.0',
     packages=find_packages(exclude=['test']),
     install_requires=['setuptools'],
     package_data={'': [
@@ -20,6 +20,7 @@ setup(
         'config/msvc/co-cl++.lnt',
         'config/msvc/co-cl.h',
         'config/au-misra3.lnt',
+        'config/au-misra3-amd1.lnt',
         'config/au-misra-cpp.lnt',
         'config/c99.lnt',
         'config/c++.lnt',
