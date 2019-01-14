@@ -1,3 +1,52 @@
+## ament_lint (crystal) - 0.6.3-0
+
+The packages in the `ament_lint` repository were released into the `crystal` distro by running `/usr/bin/bloom-release -r crystal ament_lint --override-release-repository-push-url git@github.com:ros2-gbp/ament_lint-release` on `Mon, 14 Jan 2019 17:33:42 -0000`
+
+These packages were released:
+- `ament_clang_format`
+- `ament_cmake_clang_format`
+- `ament_cmake_copyright`
+- `ament_cmake_cppcheck`
+- `ament_cmake_cpplint`
+- `ament_cmake_flake8`
+- `ament_cmake_lint_cmake`
+- `ament_cmake_pclint`
+- `ament_cmake_pep257`
+- `ament_cmake_pep8`
+- `ament_cmake_pyflakes`
+- `ament_cmake_uncrustify`
+- `ament_cmake_xmllint`
+- `ament_copyright`
+- `ament_cppcheck`
+- `ament_cpplint`
+- `ament_flake8`
+- `ament_lint_auto`
+- `ament_lint_cmake`
+- `ament_lint_common`
+- `ament_pclint`
+- `ament_pep257`
+- `ament_pep8`
+- `ament_pyflakes`
+- `ament_uncrustify`
+- `ament_xmllint`
+
+Version of package(s) in repository `ament_lint`:
+
+- upstream repository: https://github.com/ament/ament_lint.git
+- release repository: https://github.com/ros2-gbp/ament_lint-release.git
+- rosdistro version: `0.6.2-0`
+- old version: `0.6.2-0`
+- new version: `0.6.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.1`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.1`
+- vcstools version: `0.1.40`
+
+
 ## ament_lint (crystal) - 0.6.2-0
 
 The packages in the `ament_lint` repository were released into the `crystal` distro by running `/usr/bin/bloom-release -r crystal ament_lint --override-release-repository-push-url git@github.com:ros2-gbp/ament_lint-release` on `Fri, 07 Dec 2018 03:03:42 -0000`
