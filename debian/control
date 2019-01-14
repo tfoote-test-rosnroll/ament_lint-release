@@ -1,0 +1,12 @@
+Source: ros-crystal-ament-lint-common
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake-core, ros-crystal-ament-cmake-export-dependencies, ros-crystal-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-crystal-ament-lint-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-ament-cmake-copyright, ros-crystal-ament-cmake-core, ros-crystal-ament-cmake-cppcheck, ros-crystal-ament-cmake-cpplint, ros-crystal-ament-cmake-flake8, ros-crystal-ament-cmake-lint-cmake, ros-crystal-ament-cmake-pep257, ros-crystal-ament-cmake-uncrustify, ros-crystal-ament-cmake-xmllint, ros-crystal-ros-workspace
+Description: The list of commonly used linters in the ament buildsytem in CMake.
