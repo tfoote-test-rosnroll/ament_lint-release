@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ament_copyright',
-    version='0.6.4',
+    version='0.7.0',
     packages=find_packages(exclude=['test']),
     install_requires=['setuptools'],
     package_data={'': [
@@ -36,6 +36,8 @@ The ability to check sources file for copyright and license information.""",
             'apache2 = ament_copyright.licenses:apache2',
             'bsd2 = ament_copyright.licenses:bsd2',
             'mit = ament_copyright.licenses:mit',
+            'gplv3 = ament_copyright.licenses:gplv3',
+            'lgplv3 = ament_copyright.licenses:lgplv3',
         ],
         'console_scripts': [
             'ament_copyright = ament_copyright.main:main',
