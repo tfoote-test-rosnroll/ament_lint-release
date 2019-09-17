@@ -1,3 +1,57 @@
+## ament_lint (eloquent) - 0.8.0-1
+
+The packages in the `ament_lint` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -n -r eloquent ament_lint --override-release-repository-push-url git@github.com:ros2-gbp/ament_lint-release` on `Tue, 17 Sep 2019 18:12:58 -0000`
+
+These packages were released:
+- `ament_clang_format`
+- `ament_clang_tidy`
+- `ament_cmake_clang_format`
+- `ament_cmake_clang_tidy`
+- `ament_cmake_copyright`
+- `ament_cmake_cppcheck`
+- `ament_cmake_cpplint`
+- `ament_cmake_flake8`
+- `ament_cmake_lint_cmake`
+- `ament_cmake_mypy`
+- `ament_cmake_pclint`
+- `ament_cmake_pep257`
+- `ament_cmake_pep8`
+- `ament_cmake_pyflakes`
+- `ament_cmake_uncrustify`
+- `ament_cmake_xmllint`
+- `ament_copyright`
+- `ament_cppcheck`
+- `ament_cpplint`
+- `ament_flake8`
+- `ament_lint`
+- `ament_lint_auto`
+- `ament_lint_cmake`
+- `ament_lint_common`
+- `ament_mypy`
+- `ament_pclint`
+- `ament_pep257`
+- `ament_pep8`
+- `ament_pyflakes`
+- `ament_uncrustify`
+- `ament_xmllint`
+
+Version of package(s) in repository `ament_lint`:
+
+- upstream repository: https://github.com/ament/ament_lint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## ament_lint (dashing) - 0.7.10-1
 
 The packages in the `ament_lint` repository were released into the `dashing` distro by running `/usr/bin/bloom-release ament_lint --rosdistro dashing` on `Mon, 09 Sep 2019 19:50:10 -0000`
