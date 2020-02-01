@@ -1,1 +1,1 @@
-{"base": "dd12bfe2", "parent": "debian/eloquent/ament_cmake_clang_tidy", "previous": "f555e237", "trim": "", "trimbase": ""}
+{"base": "59b179c5", "parent": "debian/verystable/ament_cmake_clang_tidy", "previous": "ec841d0c", "trim": "", "trimbase": ""}
